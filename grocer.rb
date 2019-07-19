@@ -96,7 +96,7 @@ total_price += hash[:price]
 
 end
 
-return total_price
+return final_cart
 
 
 end
