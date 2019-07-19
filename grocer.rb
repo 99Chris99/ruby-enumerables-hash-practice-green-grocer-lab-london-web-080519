@@ -87,6 +87,11 @@ part_a_cart = consolidate_cart(cart)
 part_b_cart = apply_coupons(part_a_cart, coupons)
 apply_clearance(part_b_cart)
 
+clear_cart .each do|item, hash|
+
+total_price = hash[:price]
+
+end
 
 
 
