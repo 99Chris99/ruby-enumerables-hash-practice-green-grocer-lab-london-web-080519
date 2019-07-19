@@ -86,13 +86,15 @@ def checkout(cart, coupons)
 part_a_cart = consolidate_cart(cart)
 part_b_cart = apply_coupons(part_a_cart, coupons)
 final_cart = apply_clearance(part_b_cart)
-total_price = 5.00
+total_price = 0.00
 
-#final_cart.each do|item, hash|
+final_cart.each do|item, hash|
 
-#total_price = hash[:price]
+total_price += hash[:price]
 
-#end
+
+
+end
 
 return total_price
 
