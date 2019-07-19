@@ -100,7 +100,7 @@ if total_price > 100.00
 
  total_price = (total_price - ((total_price / 100)*10))
 
-#total_price  = (total_price - cal_price)
+
 
 end
 
