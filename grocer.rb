@@ -94,8 +94,11 @@ final_cart.each do|item, hash|
 total_price += hash[:price] * hash[:count]
 
 
-
 end
+
+if total_price > 100.00
+
+total_price  -= ((total_price / 100)*20)
 
 return total_price
 
