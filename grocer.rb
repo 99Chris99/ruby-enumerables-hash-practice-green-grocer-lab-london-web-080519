@@ -102,6 +102,8 @@ cal_price = ((total_price / 100)*10)
 
 total_price  = (total_price - cal_price)
 
+end
+
 return total_price
 
 
