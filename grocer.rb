@@ -93,6 +93,7 @@ total_price = hash[:price]
 
 end
 
+return total_price
 
 
 end
